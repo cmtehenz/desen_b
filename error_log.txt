@@ -1,0 +1,933 @@
+[16-Nov-2017 20:27:08 UTC] PHP Notice:  Undefined variable: ano in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 1703
+[16-Nov-2017 20:27:08 UTC] PHP Notice:  Undefined variable: mes_atual in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 1703
+[16-Nov-2017 20:27:08 UTC] PHP Notice:  Undefined variable: hoUtils in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 29
+[16-Nov-2017 20:27:08 UTC] PHP Fatal error:  Call to a member function getURLDestino() on a non-object in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 29
+[16-Nov-2017 20:27:37 UTC] PHP Notice:  Undefined variable: ano in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 1703
+[16-Nov-2017 20:27:37 UTC] PHP Notice:  Undefined variable: mes_atual in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 1703
+[16-Nov-2017 20:27:37 UTC] PHP Notice:  Undefined variable: hoUtils in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 29
+[16-Nov-2017 20:27:37 UTC] PHP Fatal error:  Call to a member function getURLDestino() on a non-object in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 29
+[16-Nov-2017 20:28:19 UTC] PHP Notice:  Undefined variable: hoUtils in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 29
+[16-Nov-2017 20:28:19 UTC] PHP Fatal error:  Call to a member function getURLDestino() on a non-object in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 29
+[16-Nov-2017 20:28:43 UTC] PHP Notice:  Undefined variable: hoUtils in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 32
+[16-Nov-2017 20:28:43 UTC] PHP Fatal error:  Call to a member function getURLDestino() on a non-object in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 32
+[16-Nov-2017 20:28:48 UTC] PHP Notice:  Undefined index: imob in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 45
+[16-Nov-2017 20:28:48 UTC] PHP Notice:  Undefined variable: dbcDB2 in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 55
+[16-Nov-2017 20:28:48 UTC] PHP Fatal error:  Call to a member function receitaPrevisto() on a non-object in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 55
+[16-Nov-2017 20:29:08 UTC] PHP Notice:  Undefined index: imob in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 45
+[16-Nov-2017 20:29:08 UTC] PHP Notice:  Undefined variable: dbcDB2 in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 55
+[16-Nov-2017 20:29:08 UTC] PHP Fatal error:  Call to a member function receitaPrevisto() on a non-object in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 55
+[16-Nov-2017 20:32:23 UTC] PHP Notice:  Undefined index: imob in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 44
+[16-Nov-2017 20:32:23 UTC] PHP Notice:  Undefined variable: dbcDB2 in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 54
+[16-Nov-2017 20:32:23 UTC] PHP Fatal error:  Call to a member function receitaPrevisto() on a non-object in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 54
+[16-Nov-2017 20:32:50 UTC] PHP Notice:  Undefined index: imob in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 44
+[16-Nov-2017 20:32:52 UTC] PHP Warning:  db2_exec() expects parameter 1 to be resource, boolean given in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 33
+[16-Nov-2017 20:32:52 UTC] PHP Warning:  db2_fetch_array() expects parameter 1 to be resource, null given in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 34
+[16-Nov-2017 20:32:52 UTC] PHP Warning:  Division by zero in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 60
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: meses in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 63
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: grfPrevisto in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 68
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: grfRealizado in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 69
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: realizadoAno in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 71
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: -1 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: menu in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 0 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 1 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 2 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 3 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 4 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 5 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 6 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 7 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 8 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 9 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 10 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 11 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined offset: 12 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Undefined variable: echoMenu in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 318
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:32:52 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:32:53 UTC] PHP Warning:  db2_exec() expects parameter 1 to be resource, boolean given in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 33
+[16-Nov-2017 20:32:53 UTC] PHP Warning:  db2_fetch_array() expects parameter 1 to be resource, null given in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 34
+[16-Nov-2017 20:33:02 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:33:02 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:33:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 194
+[16-Nov-2017 20:33:02 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:33:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 213
+[16-Nov-2017 20:33:02 UTC] PHP Notice:  Undefined variable: linhasGrafico in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 236
+[16-Nov-2017 20:33:02 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:33:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 213
+[16-Nov-2017 20:33:02 UTC] PHP Notice:  Undefined variable: linhasGrafico in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 236
+[16-Nov-2017 20:33:02 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:33:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 213
+[16-Nov-2017 20:33:02 UTC] PHP Notice:  Undefined variable: linhasGrafico in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 236
+[16-Nov-2017 20:34:04 UTC] PHP Notice:  Undefined index: imob in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 43
+[16-Nov-2017 20:34:05 UTC] PHP Fatal error:  Call to undefined function receitaPrevistoAnoMes() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 58
+[16-Nov-2017 20:34:35 UTC] PHP Notice:  Undefined index: imob in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 44
+[16-Nov-2017 20:34:36 UTC] PHP Warning:  db2_exec() expects parameter 1 to be resource, boolean given in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 33
+[16-Nov-2017 20:34:36 UTC] PHP Warning:  db2_fetch_array() expects parameter 1 to be resource, null given in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 34
+[16-Nov-2017 20:34:36 UTC] PHP Warning:  Division by zero in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 60
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: meses in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 63
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: grfPrevisto in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 68
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: grfRealizado in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 69
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: realizadoAno in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 71
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: orcamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 65
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: faturamentoAnual in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 66
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: -1 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: menu in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 0 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 1 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 2 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 3 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 4 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 5 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 6 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 7 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 8 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 9 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 10 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 11 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant iconModulo - assumed 'iconModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 308
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined offset: 12 in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 310
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nomeModulo - assumed 'nomeModulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 305
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 307
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant url - assumed 'url' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 311
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant modulo - assumed 'modulo' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 314
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Undefined variable: echoMenu in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 318
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant icon - assumed 'icon' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 327
+[16-Nov-2017 20:34:36 UTC] PHP Notice:  Use of undefined constant nome - assumed 'nome' in C:\inetpub\wwwroot\bid\desenv\library\classes\utils.class.php on line 328
+[16-Nov-2017 20:34:37 UTC] PHP Warning:  db2_exec() expects parameter 1 to be resource, boolean given in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 33
+[16-Nov-2017 20:34:37 UTC] PHP Warning:  db2_fetch_array() expects parameter 1 to be resource, null given in C:\inetpub\wwwroot\bid\desenv\old\scriptDB2.php on line 34
+[16-Nov-2017 20:34:41 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:34:41 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:34:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 194
+[16-Nov-2017 20:34:41 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:34:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 213
+[16-Nov-2017 20:34:41 UTC] PHP Notice:  Undefined variable: linhasGrafico in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 236
+[16-Nov-2017 20:34:41 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:34:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 213
+[16-Nov-2017 20:34:41 UTC] PHP Notice:  Undefined variable: linhasGrafico in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 236
+[16-Nov-2017 20:34:41 UTC] Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+[16-Nov-2017 20:34:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 213
+[16-Nov-2017 20:34:41 UTC] PHP Notice:  Undefined variable: linhasGrafico in C:\inetpub\wwwroot\bid\desenv\dashboard.php on line 236

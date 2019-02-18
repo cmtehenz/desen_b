@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ConsultarNfseResposta xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <ListaNfse>
+        <ComplNfse>
+            <Nfse>
+                <InfNfse>
+                    <Numero>3250</Numero>
+                    <CodigoVerificacao>U7BH35G2E</CodigoVerificacao>
+                    <DataEmissao>2017-04-07T17:06:35.160-03:00</DataEmissao>
+                    <IdentificacaoRps/>
+                    <NaturezaOperacao>1</NaturezaOperacao>
+                    <OptanteSimplesNacional>1</OptanteSimplesNacional>
+                    <Competencia>2017-04-01T00:00:00-03:00</Competencia>
+                    <OutrasInformacoes>FLO-3013 CONFECCAO 02 PINO DA SAPATA</OutrasInformacoes>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>195</ValorServicos>
+                            <ValorDeducoes>0.00</ValorDeducoes>
+                            <IssRetido>2</IssRetido>
+                            <ValorIss>0.00</ValorIss>
+                            <BaseCalculo>195</BaseCalculo>
+                            <Aliquota>5</Aliquota>
+                            <ValorLiquidoNfse>195</ValorLiquidoNfse>
+                            <DescontoCondicionado>0.00</DescontoCondicionado>
+                            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                        </Valores>
+                        <ItemListaServico>1401</ItemListaServico>
+                        <Discriminacao>Descrição: CONFECCAO PINO DA SAPATA
+Valor: 195</Discriminacao>
+                        <CodigoMunicipio>4209300</CodigoMunicipio>
+                    </Servico>
+                    <PrestadorServico>
+                        <IdentificacaoPrestador>
+                            <Cnpj>10883206000160</Cnpj>
+                            <InscricaoMunicipal>105179</InscricaoMunicipal>
+                        </IdentificacaoPrestador>
+                        <RazaoSocial>HIDROMEC SERVICOS E PECAS LTDA ME</RazaoSocial>
+                        <NomeFantasia>HIDROMEC</NomeFantasia>
+                        <Endereco>
+                            <Endereco>ROD BR 282 (FEDERAL)</Endereco>
+                            <Numero>7951</Numero>
+                            <Complemento>KM 227</Complemento>
+                            <Bairro>SANTA MONICA</Bairro>
+                            <CodigoMunicipio>4209300</CodigoMunicipio>
+                            <Cep>88516590</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>4932256712</Telefone>
+                            <Email>hidromechidraulica@hotmail.com</Email>
+                        </Contato>
+                    </PrestadorServico>
+                    <TomadorServico>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+                                <Cnpj>75553115000706</Cnpj>
+                            </CpfCnpj>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>TRANSPORTE RODOVIARIO DE CARGAS ZAPPELLINI LTDA</RazaoSocial>
+                        <Endereco>
+                            <Endereco>ROD  BR 116  KM 246</Endereco>
+                            <Numero>4200</Numero>
+                            <Bairro>AREA INDUSTRIAL</Bairro>
+                            <CodigoMunicipio>4209300</CodigoMunicipio>
+                            <Cep>88517600</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>4932510399</Telefone>
+                            <Email>contabilidade@zappellini.com.br</Email>
+                        </Contato>
+                    </TomadorServico>
+                    <ConstrucaoCivil/>
+                </InfNfse>
+            </Nfse>
+            <NfseCancelamento>
+                <Confirmacao>
+                    <Pedido>
+                        <InfPedidoCancelamento/>
+                        <ns2:Signature/>
+                    </Pedido>
+                    <InfConfirmacaoCancelamento>
+                        <Sucesso>false</Sucesso>
+                    </InfConfirmacaoCancelamento>
+                </Confirmacao>
+            </NfseCancelamento>
+            <NfseSubstituicao>
+                <SubstituicaoNfse/>
+            </NfseSubstituicao>
+        </ComplNfse>
+    </ListaNfse>
+    <ListaMensagemRetorno/>
+</ConsultarNfseResposta>

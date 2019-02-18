@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BID>
+    <idEmpresa>1</idEmpresa>
+    <database>
+        <host>192.168.0.18</host>
+        <name>BI</name>
+        <user>sa</user>
+        <password>r9r7x9m6</password>
+    </database>
+</BID>

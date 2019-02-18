@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ConsultarNfseResposta xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <ListaNfse>
+        <ComplNfse>
+            <Nfse>
+                <InfNfse>
+                    <Numero>92172</Numero>
+                    <CodigoVerificacao>VCKQSUBMW</CodigoVerificacao>
+                    <DataEmissao>2017-05-03T18:25:07.180-03:00</DataEmissao>
+                    <IdentificacaoRps>
+                        <Numero>92172</Numero>
+                        <Serie>ND1</Serie>
+                        <Tipo>1</Tipo>
+                    </IdentificacaoRps>
+                    <DataEmissaoRps>2017-05-03T18:24:51-03:00</DataEmissaoRps>
+                    <NaturezaOperacao>1</NaturezaOperacao>
+                    <OptanteSimplesNacional>2</OptanteSimplesNacional>
+                    <Competencia>2017-05-01T00:00:00-03:00</Competencia>
+                    <OutrasInformacoes>http://e-gov.betha.com.br/e-nota/visualizarnotaeletronica?link=1493846707184921723235919781461134558025271184811662</OutrasInformacoes>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>164.17</ValorServicos>
+                            <ValorDeducoes>0.00</ValorDeducoes>
+                            <IssRetido>2</IssRetido>
+                            <ValorIss>0.66</ValorIss>
+                            <BaseCalculo>164.17</BaseCalculo>
+                            <Aliquota>0.4</Aliquota>
+                            <ValorLiquidoNfse>164.17</ValorLiquidoNfse>
+                            <DescontoCondicionado>0.00</DescontoCondicionado>
+                            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                        </Valores>
+                        <ItemListaServico>0105</ItemListaServico>
+                        <CodigoCnae>6202300</CodigoCnae>
+                        <Discriminacao>Descrição: LICENCA DE USO NFe nota transacionada - CTO 08648 Ref 042017
+Valor: 164.17</Discriminacao>
+                        <CodigoMunicipio>4209300</CodigoMunicipio>
+                    </Servico>
+                    <PrestadorServico>
+                        <IdentificacaoPrestador>
+                            <Cnpj>06255692000103</Cnpj>
+                            <InscricaoMunicipal>100464</InscricaoMunicipal>
+                        </IdentificacaoPrestador>
+                        <RazaoSocial>NDDIGITAL S/A - SOFTWARE</RazaoSocial>
+                        <Endereco>
+                            <Endereco>R WALMOR RIBEIRO DR</Endereco>
+                            <Numero>431</Numero>
+                            <Bairro>CORAL</Bairro>
+                            <CodigoMunicipio>4209300</CodigoMunicipio>
+                            <Cep>88523060</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>4932518000</Telefone>
+                            <Email>fiscal@nddigital.com.br</Email>
+                        </Contato>
+                    </PrestadorServico>
+                    <TomadorServico>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+                                <Cnpj>19115623000138</Cnpj>
+                            </CpfCnpj>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>ZAUTO VEICULOS LTDA</RazaoSocial>
+                        <Endereco>
+                            <Endereco>AV PRESIDENTE VARGAS</Endereco>
+                            <Numero>591</Numero>
+                            <Bairro>SAG CORACAO DE JESUS</Bairro>
+                            <CodigoMunicipio>4209300</CodigoMunicipio>
+                            <Cep>88508110</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>32518000</Telefone>
+                            <Email>ti@zappellini.com.br</Email>
+                        </Contato>
+                    </TomadorServico>
+                    <ConstrucaoCivil/>
+                </InfNfse>
+            </Nfse>
+            <NfseCancelamento>
+                <Confirmacao>
+                    <Pedido>
+                        <InfPedidoCancelamento/>
+                        <ns2:Signature/>
+                    </Pedido>
+                    <InfConfirmacaoCancelamento>
+                        <Sucesso>false</Sucesso>
+                    </InfConfirmacaoCancelamento>
+                </Confirmacao>
+            </NfseCancelamento>
+            <NfseSubstituicao>
+                <SubstituicaoNfse/>
+            </NfseSubstituicao>
+        </ComplNfse>
+    </ListaNfse>
+    <ListaMensagemRetorno/>
+</ConsultarNfseResposta>
