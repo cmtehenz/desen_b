@@ -12,9 +12,8 @@
     
     include $_SERVER['DOCUMENT_ROOT'] . '/old/scriptMSSQL.php';
     include $_SERVER['DOCUMENT_ROOT'] . '/old/scriptSap.php';
-
 ?>
-
+<!doctype html>
 <html class="no-js" lang="pt-br">
     <head>
         <title>BID - Dashboard</title>
@@ -209,6 +208,5 @@
         </div> <!-- #wrapper -->
 
         <div id="footer"><div style="float: left;">Versão <?php echo $_SESSION['version']; ?></div> Copyright &copy; <?php echo date('Y'); ?>, Case Electronic Ltda.</div>
-    </body>    
+    </body>
 </html>
-

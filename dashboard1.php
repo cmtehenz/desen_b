@@ -12,8 +12,9 @@
     
     include $_SERVER['DOCUMENT_ROOT'] . '/old/scriptMSSQL.php';
     include $_SERVER['DOCUMENT_ROOT'] . '/old/scriptSap.php';
+
 ?>
-<!doctype html>
+
 <html class="no-js" lang="pt-br">
     <head>
         <title>BID - Dashboard</title>
@@ -23,6 +24,7 @@
         <meta name="author" content="Case Electronic" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        
         <?php
         if(rtrim(buscaPerfilUsuario($_SESSION['idUsuario'])) == 'A'){
             $tempoTela = buscaTempoTela($_SESSION['idUsuario']);
@@ -31,7 +33,9 @@
         ?>
 
         <link rel="stylesheet" href="<?php echo $hoUtils->getURLDestino('stylesheets/all.css'); ?>" type="text/css" />
-
+        <link rel="stylesheet" href="<?php echo $hoUtils->getURLDestino('stylesheets/novo.css'); ?>" type="text/css" />
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
         <script src="<?php echo $hoUtils->getURLDestino("js/all.js"); ?>"></script>
     </head>
     <body>
@@ -43,31 +47,21 @@
             $ano = date('Y');
             $mes = date('m');
             $dia = date('d');
-
-            /** Monta o gráfico por mês */
-            $listaMesesGrafico = $dbcSQL->select("SELECT id_mes idMes, convert(varchar(3), descricao) nome FROM mes");
-
-            //$orcamentoAnual   = $dbcDB2->receitaPrevisto($ano);
-            //$faturamentoAnual = $dbcDB2->faturamentoAnual($ano, $imob);
-
-            /** Faz os cálculos de valores das estatísticas */
-            foreach(dashboardFretePeso($ano, $mes, $dia) as $dados){
-                $realizadoMes = $dados[FRETEPESOMES];
-                $fretepesoAno = $dados[FRETEPESOANO];
-                $realizadoDia = $dados[FRETEPESODIA];
+            
+            foreach (dashboardMixFaturamento($ano, $mes, null) as $d){
+                //$fretePesoTotal     = number_format($d[TOTAL], 0 , '', '');
+                $fretePesoFrota     = number_format($d[FRETEPESOFROTA], 0, '', '');
+                $fretePesoAgregado  = number_format($d[FRETEPESOAGREGADO], 0, '', '');
+                $fretePesoTerceiros = number_format($d[FRETEPESOTERCEIRO], 0, '', '');
             }
             
+            foreach (dashboardMixFaturamento($ano, $mes, $dia) as $d){
+                //$fretePesoTotal     = number_format($d[TOTAL], 0 , '', '');
+                $fretePesoFrotaDia     = number_format($d[FRETEPESOFROTA], 0, '', '');
+                $fretePesoAgregadoDia  = number_format($d[FRETEPESOAGREGADO], 0, '', '');
+                $fretePesoTerceirosDia = number_format($d[FRETEPESOTERCEIRO], 0, '', '');
+            }
             
-            //$realizadoMes = receitaFretePeso($ano, $mes);
-            $previstoMes  = receitaPrevistoOperadorLogistico($ano, $mes);
-            //$realizadoDia = receitaFretePeso($ano, $mes, $dia);
-            $fretePesoAgregadoAnoMes = receitaFretePeso($ano, $mes, null, 'A');
-            $fretePesoFrotaAnoMes    = receitaFretePeso($ano, $mes, null, 'F');
-            $fretePesoTerceiroAnoMes = receitaFretePeso($ano, $mes, null, 'T');
-            $fretePesoAgregadoAnoMesDia = receitaFretePeso($ano, $mes, $dia, 'A');
-            $fretePesoFrotaAnoMesDia    = receitaFretePeso($ano, $mes, $dia, 'F');
-            $fretePesoTerceiroAnoMesDia = receitaFretePeso($ano, $mes, $dia, 'T');
-
         ?>
         <div id="wrapper">
             <div id="header">
@@ -88,64 +82,47 @@
                 <div id="contentHeader">
                     <h1><?php echo $_SESSION['nomeEmpresa']; ?></h1>
                 </div> <!-- #contentHeader -->
-
                 <div class="container">
-                    <div class="grid-24">
-                        <div class="widget widget-plain">
-                            <div class="widget-content">
-                                    <h2 class="dashboard_title" style="width: 410px; float: left">
-                                        Estatísticas mensais
-                                        <span><?php echo 'Data: ' . $dia . ' ' . strftime('%b') . ' ' . $ano . ' - Semana Nº ' . date('W'); ?></span>
-                                    </h2>
-                                <br /><br />
-
-                                <div class="dashboard_report first activeState">
-                                    <div class="pad">
-                                        <span class="value"><?php echo number_format($realizadoMes); ?></span> Receita Frete Peso Mês
-                                    </div> <!-- .pad -->
-                                </div>
-
-                                <div class="dashboard_report defaultState">
-                                    <div class="pad">
-                                        <span class="value"><?php echo number_format($previstoMes); ?></span> Previsto mês
-                                    </div> <!-- .pad -->
-                                </div>
-
-                                <div class="dashboard_report activeState">
-                                    <div class="pad">
-                                        <span class="value"><?php echo number_format($realizadoDia); ?></span> Frete Peso Dia
-                                    </div> <!-- .pad -->
-                                </div>
-                            </div> <!-- .widget-content -->
-                        </div> <!-- .widget -->
-                    </div> <!-- .grid -->
-
-                    
-                    <div class="grid-24">
+                    <div>
+                        <div class="box-grafico">
+                            <h2 class="dashboard_title" style="margin-left: 30%" >
+                                Mix Faturamento dia
+                            </h2>
+                            <canvas id="grafico"></canvas>
+                        </div> <!-- .container -->
+                        <div class="box-grafico">
+                            <h2 class="dashboard_title" style="margin-left: 25%" >
+                                Mix Faturamento mensal
+                            </h2>
+                            <canvas id="graficoMes"></canvas>                        
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid-24">
                         <div class="widget widget-plain">
                             <div class="widget-content">
                                 <form action="#" name="formIndex" method="POST" onchange="document.formIndex.submit()">
                                     <h2 class="dashboard_title" style="width: 410px; float: left">
-                                        MIX Faturamento Dia
+                                        Mix Faturamento Dia
                                     </h2>
                                 </form>
                                 <br /><br />
 
                                 <div class="dashboard_report first defaultState">
                                     <div class="pad">
-                                        <span class="value"><?php echo number_format($fretePesoFrotaAnoMesDia); ?></span> FROTA
+                                        <span class="value"><?php echo number_format($fretePesoFrotaDia); ?></span> FROTA
                                     </div> <!-- .pad -->
                                 </div>
 
                                 <div class="dashboard_report defaultState">
                                     <div class="pad">
-                                        <span class="value"><?php echo number_format($fretePesoAgregadoAnoMesDia); ?></span> AGREGADO
+                                        <span class="value"><?php echo number_format($fretePesoAgregadoDia); ?></span> AGREGADO
                                     </div> <!-- .pad -->
                                 </div>
 
-                                <div class="dashboard_report defaultState">
-                                    <div class="pad">
-                                        <span class="value"><?php echo number_format($fretePesoTerceiroAnoMesDia); ?></span> TERCEIRO
+                                <div class="dashboard_report defaultState" >
+                                    <div class="pad" >
+                                        <span class="value"><?php echo number_format($fretePesoTerceirosDia); ?></span> TERCEIRO
                                     </div> <!-- .pad -->
                                 </div>
 
@@ -158,26 +135,26 @@
                             <div class="widget-content">
                                 <form action="#" name="formIndex" method="POST" onchange="document.formIndex.submit()">
                                     <h2 class="dashboard_title" style="width: 410px; float: left">
-                                        MIX Faturamento Mensal
+                                        Mix Faturamento Mensal
                                     </h2>
                                 </form>
                                 <br /><br />
 
                                 <div class="dashboard_report first defaultState">
                                     <div class="pad">
-                                        <span class="value"><?php echo number_format($fretePesoFrotaAnoMes); ?></span> FROTA
+                                        <span class="value"><?php echo number_format($fretePesoFrota); ?></span> FROTA
                                     </div> <!-- .pad -->
                                 </div>
 
                                 <div class="dashboard_report defaultState">
                                     <div class="pad">
-                                        <span class="value"><?php echo number_format($fretePesoAgregadoAnoMes); ?></span> AGREGADO
+                                        <span class="value"><?php echo number_format($fretePesoAgregado); ?></span> AGREGADO
                                     </div> <!-- .pad -->
                                 </div>
 
                                 <div class="dashboard_report defaultState">
                                     <div class="pad">
-                                        <span class="value"><?php echo number_format($fretePesoTerceiroAnoMes); ?></span> TERCEIRO
+                                        <span class="value"><?php echo number_format($fretePesoTerceiros); ?></span> TERCEIRO
                                     </div> <!-- .pad -->
                                 </div>
 
@@ -185,7 +162,9 @@
                             <br>
                                 * Valores Calculados de acordo com o frete peso sem icms;
                         </div> <!-- .widget -->
-                    </div> <!-- .grid -->                                        
+                    </div> <!-- .grid -->
+                        
+                    </div>
                 </div> <!-- .container -->
             </div> <!-- #content -->
 
@@ -208,5 +187,73 @@
         </div> <!-- #wrapper -->
 
         <div id="footer"><div style="float: left;">Versão <?php echo $_SESSION['version']; ?></div> Copyright &copy; <?php echo date('Y'); ?>, Case Electronic Ltda.</div>
-    </body>
+        <script>
+            var ctx = document.getElementById('grafico').getContext('2d');
+            var ctxMes = document.getElementById('graficoMes').getContext('2d');
+            
+            const freteAgregadoMes  = "<?php echo $fretePesoAgregado ?>";
+            const freteFrotaMes     = "<?php echo $fretePesoFrota ?>";
+            const freteTerceiroMes  = "<?php echo $fretePesoTerceiros ?>";
+            
+            const freteAgregadoDia  = "<?php echo $fretePesoAgregadoDia ?>";
+            const freteFrotaDia     = "<?php echo $fretePesoFrotaDia ?>";
+            const freteTerceiroDia  = "<?php echo $fretePesoTerceirosDia ?>";
+            
+            var chart = new Chart(ctx, {
+                // The type of chart we want to create
+                type: 'pie',
+
+                // The data for our dataset
+                data: {
+                    labels: ["Frota", "Agregado", "Terceiro"],
+                    datasets: [{
+                        label: "Faturamento dia",
+                        backgroundColor: ['#00BBBE', '#B33951', '#575A4B'],
+                        data: [freteFrotaDia , freteAgregadoDia, freteTerceiroDia ]
+                    }]
+                },
+
+                // Configuration options go here
+                options: {
+                    legend:{
+                        display: true,
+                        labels: {
+                            fontColor: '#666'
+                        },
+                        position: 'bottom'                        
+                    }
+                }
+            });
+            
+            var chartMes = new Chart(ctxMes, {
+                // The type of chart we want to create
+                type: 'pie',
+
+                // The data for our dataset
+                data: {
+                    labels: [`Frota`, `Agregado`, `Terceiro`],
+                    datasets: [{
+                        label: "Faturamento Mes",
+                        backgroundColor: ['#00BBBE', '#B33951', '#575A4B'],
+                        data: [freteFrotaMes , freteAgregadoMes, freteTerceiroMes ]
+                    }]
+                },
+
+                // Configuration options go here
+                options: {
+                    legend:{
+                        display: true,
+                        labels: {
+                            fontColor: '#666'
+                        },
+                        position: 'bottom'
+                                   
+                        
+                    }                    
+                }
+                
+            });
+        </script>
+    </body>    
 </html>
+

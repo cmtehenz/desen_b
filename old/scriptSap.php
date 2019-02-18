@@ -1908,4 +1908,35 @@ function dashboardGraf($ano){
     
 }
 
+function dashboardMixFaturamento($ano, $mes, $dia){
+    include $_SERVER['DOCUMENT_ROOT'] . '/old/connect_sap.php';
+    
+    $sql = "SELECT SUM(FRETEPESO) AS TOTAL ,  
+            SUM(CASE WHEN TIPOCONTRATO = 'F' THEN FRETEPESOCICMS ELSE 0 END) AS FRETEPESOFROTA, 
+            SUM(CASE WHEN TIPOCONTRATO = 'A' THEN FRETEPESOCICMS ELSE 0 END) AS FRETEPESOAGREGADO, 
+            SUM(CASE WHEN TIPOCONTRATO = 'T' THEN FRETEPESOCICMS ELSE 0 END) AS FRETEPESOTERCEIRO 
+	FROM VW_FATURAMENTO_DASHBOARD " ;
+    
+    if($ano != null){
+        $sql .= "WHERE YEAR(DATAEMISDOCTO)= " .$ano;        
+    }if($mes != null){
+        $sql .= "AND MONTH(DATAEMISDOCTO)= " .$mes;
+    }if($dia != null){
+        $sql .= "AND DAY(DATAEMISDOCTO)= " .$dia;
+    }
+    
+    $SQLeXEC = mssql_query($sql);
+    $i=0;
+    $dados=null;
+    while($d = mssql_fetch_array($SQLeXEC)){
+        $i++;
+        $dados[$i][TOTAL]               = $d[TOTAL];
+        $dados[$i][FRETEPESOFROTA]      = $d[FRETEPESOFROTA];
+        $dados[$i][FRETEPESOAGREGADO]   = $d[FRETEPESOAGREGADO];
+        $dados[$i][FRETEPESOTERCEIRO]   = $d[FRETEPESOTERCEIRO];
+    }
+    return $dados;
+    
+}
+
 ?>
