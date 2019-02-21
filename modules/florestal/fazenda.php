@@ -19,7 +19,7 @@
         <meta name="description" content="" />
         <meta name="author" content="Case Electronic" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
         <link rel="stylesheet" href="<?php echo $hoUtils->getURLDestino('stylesheets/all.css'); ?>" type="text/css" />
 
         <script src="<?php echo $hoUtils->getURLDestino("js/all.js"); ?>"></script>
@@ -28,6 +28,7 @@
     <body>
         <?php
             include $_SERVER['DOCUMENT_ROOT'] . '/old/connect_mssql.php';
+            include $_SERVER['DOCUMENT_ROOT'] . '/old/scriptMSSQL.php';
             include $_SERVER['DOCUMENT_ROOT'] . '/old/funcoes.php';
 
             /*             * *******************************
@@ -72,9 +73,9 @@
                 $listaMes = $listaMes . "<option value='$dadosMes[0]'>$dadosMes[1]</option>";
             }
 
-            /*             * *****************************************
+            /******************************************
              *    SELECAO DOS CLIENTE (DESTINO)
-             * **************************************** */
+             * **************************************** 
             $sql_cliente = mssql_query("SELECT carregamento.idFazenda, sum(carregamento.peso), COUNT(*),(SELECT descricao FROM flr.fazenda WHERE idFazenda=carregamento.idFazenda) as origem
                                 FROM [BI].[flr].[carregamento]
                                 join flr.fazenda ON (fazenda.idFazenda = carregamento.idFazenda)
@@ -93,16 +94,38 @@
                 //TITULO PARA GRAFICO
                 $titulo = $titulo . "<th>$dadosCliente[3]</th>";
 
-                /*                 * **************************** */
+                /*                 * **************************** 
                 //REALIZADO PARA O GRAFICO
-                $graf_realizado = $graf_realizado . '<td>' . $dadosCliente[1] . '</td>';
+                $graf_realizado = $graf_realizado .  '<td>' . $dadosCliente[1] . '</td>';
+            
+                
             }
+            echo $graf_realizado . '</br>';
 
             $sqlTotal = mssql_query("SELECT sum(carregamento.peso), COUNT(*)
                                 FROM [BI].[flr].[carregamento]
                                 WHERE YEAR(data)=$ano AND month(data)=$mes_atual
                                 ");
             $dadosTotal = mssql_fetch_array($sqlTotal);
+             * 
+             */
+            $i = 0;
+            foreach (florestalCaregamentoFazenda($ano, $mes_atual) as $dados){
+                $i++;
+                $peso[$i] = number_format($dados[PESO], 0, ' ', '') ;
+                $pesoTotal += $dados[PESO];
+                $totalViagens += $dados[CARGAS];
+                $linhaTabela = $linhaTabela . "<tr class='gradeA'>
+                                    <td><a href='sublists/fazenda.php?origem=$dados[ID]&mes=$mes_atual&ano=$ano'>$dados[FAZENDA]</a></td>
+                                    <td align='center'>$dados[CARGAS]</td>
+                                    <td align='right'>".number_format($dados[PESO], 0, '.', '.')."</td>
+                                </tr>";
+                
+                
+                $titulo[$i] = $dados[FAZENDA];
+                
+            }
+            
         ?>
         <div id="wrapper">
 
@@ -159,8 +182,8 @@
                                     <thead>
                                         <tr>
                                             <th width="45%">FAZENDA</th>
-                                            <th>VIAGENS</th>
-                                            <th>PESO Kg</th>
+                                            <th style="text-align: center">VIAGENS</th>
+                                            <th style="text-align: center">PESO Kg</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -189,15 +212,15 @@
                                     <thead>
                                         <tr>
                                             <th width="45%">EMPRESA</th>
-                                            <th>VIAGENS</th>
+                                            <th style="text-align: center">VIAGENS</th>
                                             <th>PESO Kg</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr class="odd gradeX">
-                                            <td><?php echo $dados_empresa[1]; ?></td>
-                                            <td align='right'><?php echo $dadosTotal[1]; ?></td>
-                                            <td align='right'><?php echo number_format($dadosTotal[0], 0, ',', '.'); ?></td>
+                                            <td>Florestal Zappellini</td>
+                                            <td align='center'><?php echo $totalViagens; ?></td>
+                                            <td align='right'><?php echo number_format($pesoTotal, 0, ',', '.'); ?></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -215,25 +238,10 @@
                             </div>
 
                             <div class="widget-content">
-                                <table class="stats" data-chart-type="bar" data-chart-colors="">
-                                    <caption><?php echo $ano; ?> PRODUCAO</caption>
-                                    <thead>
-                                        <tr>
-                                            <td>&nbsp;</td>
-                                            <?php echo $titulo; ?>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody>
-
-                                        <tr>
-                                            <th>Realizado</th>
-                                            <?php echo $graf_realizado; ?>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
+                               
+                                    
+                                    <canvas id="grafico"></canvas>
+                                
                             </div> <!-- .widget-content -->
 
                         </div> <!-- .widget -->
@@ -363,7 +371,49 @@
             <div style="float: left;">Versão <?php echo $_SESSION['version']; ?></div> Copyright &copy; <?php echo date('Y'); ?>, Case Electronic Ltda.
         </div>
 
+        <script>
+            var ctx = document.getElementById('grafico').getContext('2d');
+              
+            const peso =  [<?php echo '"'.implode('","', $peso).'"' ?>];
+            const labels =  [<?php echo '"'.implode('","', $titulo).'"' ?>];
+                     
+            
+            var chart = new Chart(ctx, {
+                // The type of chart we want to create
+                type: 'bar',
 
+                // The data for our dataset
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: "Produção mês por tonelada",
+                        backgroundColor: '#0066CC',
+                        data: peso
+                    }]
+                },
+
+                // Configuration options go here
+                options: {
+                    legend:{
+                        display: true,
+                        labels: {
+                            fontColor: '#666'
+                        },
+                        position: 'bottom'                        
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+            
+        
+        
+        </script>
 
     </body>
 </html>

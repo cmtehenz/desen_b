@@ -383,4 +383,56 @@
         }
         return $da;
     }
+    
+    function florestalCaregamentoFazenda($ano, $mes){
+        include $_SERVER['DOCUMENT_ROOT'] . '/old/connect_mssql.php';
+        $sql = "SELECT carregamento.idFazenda as ID, 
+                        sum(carregamento.peso) as PESO, COUNT(*) AS CARGAS,
+                        (SELECT descricao FROM flr.fazenda WHERE idFazenda=carregamento.idFazenda)as FAZENDA
+                                FROM [BI].[flr].[carregamento]
+                                join flr.fazenda ON (fazenda.idFazenda = carregamento.idFazenda)";
+        if($ano != null){
+            $sql .= " WHERE YEAR(data) = " .$ano ;
+        }if($mes != null ){
+            $sql .= " AND MONTH(data) = " .$mes;
+        }
+        $sql .= " GROUP BY carregamento.idFazenda
+                    ORDER BY sum(carregamento.peso) DESC";
+        
+        
+        
+        $SQLeXEC = mssql_query($sql);
+        $i=0;
+        while($d = mssql_fetch_array($SQLeXEC)){
+                $i++;
+                $da[$i][ID]          = $d[ID];
+                $da[$i][CARGAS]      = $d[CARGAS];
+                $da[$i][PESO]        = $d[PESO];
+                $da[$i][FAZENDA]     = $d[FAZENDA];
+        }
+        return $da;
+    }
+    
+    function florestalCarregamentoDiario($ano, $mes, $idFazenda){
+        
+        include $_SERVER['DOCUMENT_ROOT'] . '/old/connect_mssql.php';
+        $sql = "SELECT sum(peso) as PESO, count(*) as VIAGENS, day(data) as DIA
+                    FROM flr.carregamento 
+                    where idFazenda=$idFazenda AND year(data)=$ano and month(data)=$mes
+                    group by year(data), month(data), day(data)";
+        
+        $SQLeXEC = mssql_query($sql);
+        $i=0;
+        while($d = mssql_fetch_array($SQLeXEC)){
+            $i++;
+            $da[$i][PESO]        = $d[PESO];
+            $da[$i][VIAGENS]     = $d[VIAGENS];
+            $da[$i][DIA]         = $d[DIA];
+        }
+        
+        return $da;
+        
+        
+        
+    }
 ?>

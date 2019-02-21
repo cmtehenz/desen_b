@@ -19,7 +19,7 @@
         <meta name="description" content="" />
         <meta name="author" content="Case Electronic" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
         <link rel="stylesheet" href="<?php echo $hoUtils->getURLDestino('stylesheets/all.css'); ?>" type="text/css" />
 
         <script src="<?php echo $hoUtils->getURLDestino("js/all.js"); ?>"></script>
@@ -27,6 +27,7 @@
 
     <body>
         <?php
+            include $_SERVER['DOCUMENT_ROOT'] . '/old/scriptMSSQL.php';
             include $_SERVER['DOCUMENT_ROOT'] . '/old/connect_mssql.php';
             include $_SERVER['DOCUMENT_ROOT'] . '/old/funcoes.php';
 
@@ -84,54 +85,28 @@
 
             //DIAS PARA O GRAFICO
             $dias_mes = cal_days_in_month(CAL_GREGORIAN, $mes_atual, $ano);
-            for ($i = 1; $i <= $dias_mes; $i++){
-                $tituloGraf = $tituloGraf . '<th>' . $i . '</th>';
-
-
-                $script_carregamentoDiario = mssql_query("SELECT sum(peso), count(*) FROM carregamento where origem=$origem AND year(data)=$ano and month(data)=$mes_atual and day(data) = $i");
-                $dados_carregamentoDiario = mssql_fetch_array($script_carregamentoDiario);
-
-                $cargas = $dados_carregamentoDiario[1];
-                $pesoCarregado = $dados_carregamentoDiario[0];
-
-
-                if ($pesoCarregado == NULL){
-                    $realizadoDiario = 0;
-                }
-                else{
-                    $realizadoDiario = $pesoCarregado;
-                }
-                if ($cargas == NULL){
-                    $realizadoDiario2 = 0;
-                }
-                else{
-                    $realizadoDiario2 = $cargas;
-                }
-                /*                 * **************************** */
-                //REALIZADO PARA O GRAFICO
-                $graf_realizado = $graf_realizado . '<td>' . $realizadoDiario . '</td>';
-
-                $graf_realizado2 = $graf_realizado2 . '<td>' . $realizadoDiario2 . '</td>';
-                /*                 * **************************** */
-
-                $relizadoLinha = number_format($pesoCarregado, 0, ',', '.');
-                $linhaTabela = $linhaTabela . "<tr class='gradeA'>
-                                    <td>$i</td>
-                                    <td align='right'>$cargas</td>
-                                    <td align='right'>$relizadoLinha</td>
-                                </tr>";
+            
+            for ($i = 1; $i <= $dias_mes; $i++) {
+                $dias_grafico[] = $i;               
             }
+            $p=0;
+            
+            foreach (florestalCarregamentoDiario($ano, $mes_atual, $origem) as $dados){
+                
+                $p++;
+                $data_gr[$p] = $dados[DIA];
+                $peso_dia[$p] = $dados[PESO];
+                $viagens[$p] = $dados[VIAGENS];
+                $totalViagens += $dados[VIAGENS];
+                $totalPeso += $dados[PESO];
+                
+            }
+               
+            
+             
+            
 
-            $script_carregamentoMensal = mssql_query("SELECT sum(peso), count(*) FROM carregamento where origem=$origem AND year(data)=$ano AND month(data)=$mes_atual");
-            $dados_carregamentoMensal = mssql_fetch_array($script_carregamentoMensal);
-            $cargasTotal = $dados_carregamentoMensal[1];
-            $pesoCarregadoTotal = $dados_carregamentoMensal[0];
-            $relizadoLinhaTotal = number_format($pesoCarregadoTotal, 0, ',', '.');
-            $totalTabela = $totalTabela . "<tr class='gradeA'>
-                                    <td>$dadosMesSelecionado[1]</td>
-                                    <td align='right'>$cargasTotal</td>
-                                    <td align='right'>$relizadoLinhaTotal</td>
-                                </tr>";
+            
         ?>
         <div id="wrapper">
 
@@ -186,25 +161,8 @@
                             </div>
 
                             <div class="widget-content">
-                                <table class="stats" data-chart-type="line" data-chart-colors="">
-                                    <caption><?php echo $mes_atual . '/' . $ano; ?> Peso Diario Kg</caption>
-                                    <thead>
-                                        <tr>
-                                            <td>&nbsp;</td>
-<?php echo $tituloGraf; ?>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody>
-
-                                        <tr>
-                                            <th>Realizado</th>
-<?php echo $graf_realizado; ?>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
+                                <canvas id="graficoCarDia"></canvas>
+                                
                             </div> <!-- .widget-content -->
 
                         </div> <!-- .widget -->
@@ -217,25 +175,8 @@
                             </div>
 
                             <div class="widget-content">
-                                <table class="stats" data-chart-type="line" data-chart-colors="">
-                                    <caption><?php echo $mes_atual . '/' . $ano; ?> QTD de Cargas</caption>
-                                    <thead>
-                                        <tr>
-                                            <td>&nbsp;</td>
-<?php echo $tituloGraf; ?>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody>
-
-                                        <tr>
-                                            <th>Realizado</th>
-<?php echo $graf_realizado2; ?>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
+                                <canvas id="graficoViagens"></canvas>
+                                
                             </div> <!-- .widget-content -->
 
                         </div> <!-- .widget -->
@@ -248,24 +189,8 @@
                             </div>
 
                             <div class="widget-content">
-
-                                <table class="table table-bordered table-striped ">
-                                    <thead>
-                                        <tr>
-                                            <th width="12%">DIA</th>
-                                            <th>QUANTIDADE DE CARGAS</th>
-                                            <th>PESO Kg</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-
-                                        <?php
-                                            echo $linhaTabela;
-                                        ?>
-
-                                    </tbody>
-                                </table>
-
+                                <div id="tabelaTodos"></div>
+                                
                             </div> <!-- .widget-content -->
 
                         </div> <!-- .widget -->
@@ -278,24 +203,8 @@
                             </div>
 
                             <div class="widget-content">
-
-                                <table class="table table-bordered table-striped ">
-                                    <thead>
-                                        <tr>
-                                            <th width="12%">MES</th>
-                                            <th>QUANTIDADE DE CARGAS</th>
-                                            <th>PESO Kg</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-
-                                        <?php
-                                            echo $totalTabela;
-                                        ?>
-
-                                    </tbody>
-                                </table>
-
+                                <div id="tabelaTotal"></div>
+                                
                             </div> <!-- .widget-content -->
 
                         </div> <!-- .widget -->
@@ -425,7 +334,173 @@
             <div style="float: left;">Versão <?php echo $_SESSION['version']; ?></div> Copyright &copy; <?php echo date('Y'); ?>, Case Electronic Ltda.
         </div>
 
+        <script>
+            var ctx = document.getElementById('graficoCarDia').getContext('2d');
+            var ctx_viagens = document.getElementById('graficoViagens').getContext('2d');
+            
+            const dias =  [<?php echo '"'.implode('","', $dias_grafico).'"' ?>];
+            const peso = [ ];
+            const viagens = [ ];
+            const diasValue = [<?php echo '"'.implode('","', $data_gr).'"' ?>];
+            const pesoValue = [<?php echo '"'.implode('","', $peso_dia).'"' ?>];
+            const viagensValue = [<?php echo '"'.implode('","', $viagens).'"' ?>];
+            const totalViagens = [<?php echo $totalViagens; ?>];
+            const totalPeso    = [<?php echo $totalPeso; ?>];
+            
+            
+            for(var i = 0; i < dias.length; i++){
+                peso[i] = 0;
+                viagens[i] = 0;
+            }
+            
+            
+            for (i = 0; i < dias.length; i++) { 
+                
+               
+                for(j = 0; j < diasValue.length; j++){
+                    
+                    if(dias[i] === diasValue[j]){
+                        
+                        peso.splice(i, 1, pesoValue[j] );
+                        viagens.splice(i, 1, viagensValue[j]);
+                        
+                    }
+                }
+                
+            }
+            linhaTabela = '';
+            for(var i = 1; i < dias.length + 1; i++){
+                linhaTabela = linhaTabela + "<tr class='gradeA'>";
+                linhaTabela = linhaTabela + "<td>"+ i +"</td>";
+                linhaTabela = linhaTabela + "<td align='left'>"+viagens[i-1] +"</td>";
+                linhaTabela = linhaTabela + "<td align='right'>"+peso[i-1] +"</td>";
+                linhaTabela = linhaTabela + "</tr>";
+                
+            }
+            
+            
+            var tabelaTodos = document.getElementById("tabelaTodos");
+            
+            tabelaTodos.innerHTML = [
+                "<table class='table table-bordered table-striped '>",
+                    "<thead>",
+                        "<tr>",
+                            "<th width='12%'>DIA</th>",
+                            "<th align='rigth'>QUANTIDADE DE CARGAS</th>",
+                            "<th>PESO Kg</th>",
+                        "</tr>",
+                    "</thead>",
+                    "<tbody>",
+                    linhaTabela,
+                    "</tbody>",
+                "</table>"
+            ].join("\n");
+            
+            
+          
+            
+            var tabela = document.getElementById("tabelaTotal");
+            
+            tabela.innerHTML = [
+                "<table class='table table-bordered table-striped '>",
+                    "<thead>",
+                        "<tr>",
+                            "<th width='12%'>MES</th>",
+                            "<th>QUANTIDADE DE CARGAS</th>",
+                            "<th>PESO Kg</th>",
+                        "</tr>",
+                    "</thead>",
+                    "<tbody>",
+                    "<tr>",
+                    "<td> <?php echo $dadosMesSelecionado[1]; ?>  </td>",
+                    "<td align='left'>"+ totalViagens +"</td>",
+                    "<td align='right'>"+ totalPeso +"</td>",
+                    "</tr>",
+                    "</tbody>",
+                "</table>"
+            ].join("\n");
+            
+            
+            
+           
+            
+            
+            
+                                 
+            
+            var chart = new Chart(ctx, {
+                // The type of chart we want to create
+                type: 'line',
+
+                // The data for our dataset
+                data: {
+                    labels: dias,
+                    datasets: [{
+                        label: "Peso diario",
+                        backgroundColor: '#0066CC',
+                        borderColor: '#0066CC',
+                        data: peso,
+                        fill: false
+                    }]
+                },
+
+                // Configuration options go here
+                options: {
+                    legend:{
+                        display: true,
+                        labels: {
+                            fontColor: '#666'
+                        },
+                        position: 'bottom'                        
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+            
+            var chart = new Chart(ctx_viagens, {
+                // The type of chart we want to create
+                type: 'line',
+
+                // The data for our dataset
+                data: {
+                    labels: dias,
+                    datasets: [{
+                        label: "Viagens Diarias",
+                        backgroundColor: '#0066CC',
+                        borderColor: '#0066CC',
+                        data: viagens,
+                        fill: false
+                    }]
+                },
+
+                // Configuration options go here
+                options: {
+                    legend:{
+                        display: true,
+                        labels: {
+                            fontColor: '#666'
+                        },
+                        position: 'bottom'                        
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+            
         
+        
+        </script>
 
     </body>
 </html>
